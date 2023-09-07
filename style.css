@@ -1,0 +1,50 @@
+.texto-principal{
+   margin: 35px;
+   text-align: center;
+
+}
+body{
+    background-color: rgb(11, 111, 224);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.colmunStyle{
+    display: flex;
+    flex-direction: column;
+}
+.colmunStyle h1{
+    color: white;
+    font-weight: bold;
+    margin-bottom: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.colmunStyle table{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+}
+.colmunStyle tbody tfoot{
+    text-align: center;
+
+
+}
+
+.formStyle{
+    display: flex;
+    flex-direction: column;
+}
+.formStyle label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: initial;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formStyle button{
+    margin-top: 20px;
+}
